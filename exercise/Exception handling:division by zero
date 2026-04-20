@@ -1,0 +1,10 @@
+n1,n2=map(int,input("Enter 2 numbers:").split())
+try:
+	res=n1/n2
+	print("Result:",res)
+except ZeroDivisionError:
+   print("Error: Division by zero")
+except ValueError:
+   print("Error:invalid input")
+except:
+   print("Error in input")
